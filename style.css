@@ -79,3 +79,6 @@ nav a {
   background-size: cover;
   background-position: center;
 }
+nav a:hover {
+  color: var(--primary-color);
+}
