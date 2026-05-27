@@ -69,3 +69,6 @@ nav a {
   font-size: var(--text-size);
   margin-left: var(--spacing-md);
 }
+nav a:hover {
+  color: var(--primary-color);
+}
