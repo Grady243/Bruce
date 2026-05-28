@@ -12,8 +12,8 @@
 
   /* SPACING */
   --spacing-sm: 10px;
-  --spacing-md: 40px;
-  --spacing-lg: 40px;
+  --spacing-md: 120px;
+  --spacing-lg: 120px;
 
   /* BORDER */
   --border-radius: 10px;
@@ -32,7 +32,7 @@
 .top-bar {
   display: flex;
   justify-content: space-between;
-  padding: 10px 120px 10px 120px;
+  padding: 10px 120px;
   background-color: var(--primary-color);
 }
 .top-bar a {
@@ -54,7 +54,6 @@ nav {
 nav h2 {
   font-size: var(--title-size);
   color: var(--primary-color);
-  color: var(--primary-color);
 }
 nav ul {
   list-style: none;
@@ -74,11 +73,51 @@ nav a {
   height: 85vh;
   display: flex;
   align-items: center;
-  padding: var(--spacing-lg) var(--spacing-md);
   background-image: url("/images/herobg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 nav a:hover {
   color: var(--primary-color);
+}
+.Presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-lg) var(--spacing-md);
+  align-items: flex-start;
+  position: relative;
+}
+.Presentation h3 {
+  font-size: var(--small-size);
+  color: var(--primary-color);
+  z-index: 1;
+}
+.Presentation h1 {
+  font-size: var(--title-size);
+  color: white;
+  z-index: 1;
+}
+.Presentation button {
+  padding: 15px 20px;
+  font-size: var(--text-size);
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  z-index: 1;
+}
+.overlay {
+  width: 100%;
+  height: 85vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 2, 3, 0.82) 0%,
+    rgba(87, 199, 133, 0) 82%
+  );
+  position: absolute;
 }
