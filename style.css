@@ -12,8 +12,8 @@
 
   /* SPACING */
   --spacing-sm: 10px;
-  --spacing-md: 120px;
-  --spacing-lg: 120px;
+  --spacing-md: 40px;
+  --spacing-lg: 40px;
 
   /* BORDER */
   --border-radius: 10px;
@@ -49,7 +49,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 150px;
+  padding: 30px 50px;
+  margin-left: 65px;
 }
 nav h2 {
   font-size: var(--title-size);
@@ -87,7 +88,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   gap: var(--spacing-sm);
-  padding: var(--spacing-lg) var(--spacing-md);
+  padding: 120px;
   align-items: flex-start;
   position: relative;
 }
