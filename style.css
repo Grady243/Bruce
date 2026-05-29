@@ -50,7 +50,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 30px 50px;
-  margin-left: 65px;
+  margin: 0px 65px;
 }
 nav h2 {
   font-size: var(--title-size);
@@ -99,7 +99,7 @@ nav a:hover {
 }
 .Presentation h1 {
   font-size: var(--title-size);
-  color: white;
+  color: black;
   z-index: 1;
 }
 .Presentation button {
@@ -117,7 +117,7 @@ nav a:hover {
   height: 85vh;
   background: linear-gradient(
     90deg,
-    rgba(0, 2, 3, 0.82) 0%,
+    rgba(194, 187, 187, 0.82) 0%,
     rgba(87, 199, 133, 0) 82%
   );
   position: absolute;
