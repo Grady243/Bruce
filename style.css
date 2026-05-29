@@ -135,6 +135,21 @@ nav a:hover {
   );
   position: absolute;
 }
+.float {
+  position: absolute;
+
+  bottom: 0;
+  right: 40px;
+
+  transform: translateY(50%);
+
+  background-color: var(--primary-color);
+  color: white;
+
+  padding: 20px 25px;
+
+  border-radius: 30px;
+}
 .About {
   width: 100%;
   height: auto;
